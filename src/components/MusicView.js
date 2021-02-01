@@ -9,7 +9,7 @@ const MusicView = ({ instruments }) => {
     const context = new ReactNativeSVGContext(NotoFontPack, { width: 400, height: 400 });
 
     //set the default x and y drawing positions
-    let currentXPosition = 50;
+    let currentXPosition = 5;
     let currentYPosition = 50;
 
     //i may need to map each stave into a new system array or object so stave connectors can be correctly drawn later...
@@ -54,7 +54,7 @@ const MusicView = ({ instruments }) => {
             });
 
             //now reset the current X position and increment the current Y position
-            currentXPosition = 50;
+            currentXPosition = 5;
             currentYPosition += 100;
         });
     });
