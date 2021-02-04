@@ -15,6 +15,7 @@ const measures = [
         instruments: [
             {
                 name: 'B-flat Clarinet',
+                abbr: "Bb Clr.",
                 staves: [
                     {
                         clef: 'treble',
@@ -33,6 +34,7 @@ const measures = [
             },
             {
                 name: 'Piano',
+                abbr: 'Pno.',
                 staves: [
                     {
                         clef: 'treble',
@@ -68,6 +70,7 @@ const measures = [
         instruments: [
             {
                 name: 'B-flat Clarinet',
+                abbr: "Bb Clr.",
                 staves: [
                     {
                         clef: 'treble',
@@ -86,6 +89,7 @@ const measures = [
             },
             {
                 name: 'Piano',
+                abbr: 'Pno.',
                 staves: [
                     {
                         clef: 'treble',
@@ -121,6 +125,7 @@ const measures = [
         instruments: [
             {
                 name: 'B-flat Clarinet',
+                abbr: "Bb Clr.",
                 staves: [
                     {
                         clef: 'treble',
@@ -139,6 +144,7 @@ const measures = [
             },
             {
                 name: 'Piano',
+                abbr: 'Pno.',
                 staves: [
                     {
                         clef: 'treble',
